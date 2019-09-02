@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+  </head>
+  <body>
+        <!-- Add an image that we will use to test -->
+        <img id="img" src="911-road-3629a.jpg" width=227 height=227/>
+        <input type="file" id="upload-image" accept=".jpg, .jpeg, .png">
+        <!-- Load index.js after the content of the page -->
+        <div id="result"></div>
+
+        <script src="index.js"></script>
+  </body>
+</html>
